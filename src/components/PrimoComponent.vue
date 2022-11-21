@@ -6,8 +6,8 @@
                     <img class="audible" src="../../public/img/audible-app-2x.png" alt="">
                 </div>
                 <div class="col-6 text-p-c text-center  ">
-                    <h2 class="">TITOLO GIALLO</h2>
-                    <p class="text-warning">NO TIME TO READ? NO PROBLEM. LISTEN TO 11 </p>
+                    <h2 class="text-capitalize">new audiobook </h2>
+                    <p class="text-warning">NO TIME TO READ? NO PROBLEM. LISTEN TO IT </p>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Hic unde
                         consequuntur quam quo eum?
                     </p>

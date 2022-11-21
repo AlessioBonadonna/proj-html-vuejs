@@ -37,8 +37,4 @@ export default {
     margin: 0 auto;
     margin-right: 2%;
 }
-
-.sono-giallo img:nth-child(2) {
-    filter: grayscale(2)
-}
 </style>
