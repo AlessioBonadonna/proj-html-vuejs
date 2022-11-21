@@ -15,7 +15,7 @@
 import MainTextCenter from './MainTextCenter.vue';
 import YellowSection from './YellowSection.vue';
 import PrimoComponent from './PrimoComponent.vue';
-import CriticsComponent from './CriticsComponent.vue'
+import CriticsComponent from './CriticsComponent.vue';
 
 export default {
     components: { MainTextCenter, YellowSection, PrimoComponent, CriticsComponent }

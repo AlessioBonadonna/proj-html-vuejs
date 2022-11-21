@@ -18,7 +18,7 @@ export default {
 <style lang="scss" scoped>
 .sono-giallo {
     margin-top: 80px;
-    background-color: lightyellow;
+    background-color: rgb(254, 254, 227);
     width: 100%;
     align-items: center;
 }
