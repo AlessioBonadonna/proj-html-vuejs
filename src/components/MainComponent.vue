@@ -1,12 +1,24 @@
 <template>
-    <div>
-        sono il main
-    </div>
+    <main>
+        <MainTextCenter />
+        <YellowSection />
+        <PrimoComponent />
+        <CriticsComponent />
+
+    </main>
+
+
+
 </template>
 
 <script>
-export default {
+import MainTextCenter from './MainTextCenter.vue';
+import YellowSection from './YellowSection.vue';
+import PrimoComponent from './PrimoComponent.vue';
+import CriticsComponent from './CriticsComponent.vue'
 
+export default {
+    components: { MainTextCenter, YellowSection, PrimoComponent, CriticsComponent }
 }
 </script>
 

@@ -33,6 +33,7 @@ header {
     position: fixed;
     color: white;
     z-index: 3000;
+    background-color: rgba(0, 0, 0, 0.241);
 }
 
 li {
