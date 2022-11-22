@@ -1,6 +1,6 @@
 <template>
     <div class=" sono-giallo d-flex">
-        <div v-for="(im, index) in contimg" :key="index">
+        <div class="container" v-for="(im, index) in contimg" :key="index">
             <img :src="im.img" :alt="im.text" />
 
         </div>
@@ -60,5 +60,9 @@ export default {
     margin-left: 2%;
     margin: 0 auto;
     margin-right: 2%;
+}
+
+img {
+    width: 200px;
 }
 </style>

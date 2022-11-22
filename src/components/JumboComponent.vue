@@ -3,8 +3,8 @@
 
         <div class="container ">
             <div class="col-5">
-                <h1 class="text-warning corsive">Dawn Vaughn</h1>
-                <h5 class="text-white ">Best selling author and the most influential public
+                <h1 class="text-warning corsive ">Dawn Vaughn</h1>
+                <h5 class="text-white  ">Best selling author and the most influential public
                     intellectual in the
                     western
                     world right now.</h5>
@@ -124,9 +124,14 @@ export default {
 
 }
 
+h1 {
+    font-size: 100px;
+}
+
 h5 {
     font-size: 42px;
     line-height: 50px;
+    font-family: 'DM Serif Display', serif;
 }
 
 small {
