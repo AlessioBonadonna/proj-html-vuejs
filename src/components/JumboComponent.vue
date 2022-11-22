@@ -9,6 +9,15 @@
                     western
                     world right now.</h5>
                 <small>- The New York Times</small>
+                <div class="d-flex mt-2">
+                    <div>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="bg-dark">
+                        <i class="fa-solid fa-arrow-right text-white "></i>
+                    </div>
+
+                </div>
             </div>
         </div>
         <!--Jumbo card left-->
