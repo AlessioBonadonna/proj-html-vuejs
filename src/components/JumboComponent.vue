@@ -3,7 +3,7 @@
 
         <div class="container ">
             <div class="col-5">
-                <h1 class="text-warning">Dawn Vaughn</h1>
+                <h1 class="text-warning corsive">Dawn Vaughn</h1>
                 <h5 class="text-white ">Best selling author and the most influential public
                     intellectual in the
                     western
@@ -75,6 +75,10 @@ export default {
     background-size: cover;
 
 
+}
+
+.corsive {
+    font-family: 'Kristi', cursive;
 }
 
 .little-squares-jumbo {

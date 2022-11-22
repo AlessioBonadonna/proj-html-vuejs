@@ -1,7 +1,7 @@
 <template>
   <!-- SITEMIAMO TUTTO E POI AGGIUNGIAMO I FONTS !!!-->
   <div class="position">
-    <GotopComponent />
+    <!-- <GotopComponent /> -->
     <HeaderComponent />
     <JumboComponent />
 
