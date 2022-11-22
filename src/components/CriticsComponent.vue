@@ -29,7 +29,7 @@
         </div>
         <div class="col-6 ms-5">
             <div class="text-end">
-                <button class="btn btn-warning text-white  ">Read all testimonials</button>
+                <button class="btn btn-warning text-white w-50 ">Read all testimonials</button>
             </div>
 
             <div class=" mt-5 yellow text-center">
