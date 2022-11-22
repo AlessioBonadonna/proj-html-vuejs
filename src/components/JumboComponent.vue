@@ -9,16 +9,21 @@
                     western
                     world right now.</h5>
                 <small>- The New York Times</small>
-                <div class="d-flex mt-2">
-                    <div>
-                        <i class="fa-solid fa-arrow-left"></i>
+                <div class="d-flex mt-4">
+                    <div class="bg-black arrow me-1 p-2">
+                        <a href="#nogo"> <i class="fa-solid fa-arrow-left text-white"></i></a>
                     </div>
-                    <div class="bg-dark">
-                        <i class="fa-solid fa-arrow-right text-white "></i>
+                    <div class="bg-black arrow p-2">
+                        <a href="#nogo"> <i class="fa-solid fa-arrow-right text-white "></i></a>
                     </div>
 
                 </div>
             </div>
+        </div>
+        <!--Card -->
+        <div class="little-squares-jumbo">
+            <div class=""><i class="fa-solid fa-images"></i><span>Demos</span></div>
+            <div><span class=""><sup>&#36;</sup>39</span><span>On Sale</span></div>
         </div>
         <!--Jumbo card left-->
         <div class="jumbo-card  bg-white col-4">
@@ -37,11 +42,11 @@
 
                 </div>
                 <div class="btn-shop mt-3 d-flex">
-                    <div class="amazon-shop">
-                        <button>amazon shop</button>
+                    <div class="amazon-shop text-center">
+                        <button> <i class="fa-brands fa-amazon"></i> Buy on amazon </button>
                     </div>
                     <div class="apple-shop">
-                        <button class="reverse">apple shop</button>
+                        <button class="reverse"> <i class="fa-brands fa-apple"></i> Buy on AppleStore</button>
                     </div>
                 </div>
 
@@ -66,7 +71,54 @@ export default {
     background-image: url(../../public/img/footer-3.jpg);
     height: 40vw;
     position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+
+}
+
+.little-squares-jumbo {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    width: 50px;
+    height: 150px;
+
+    div {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 10px;
+        color: rgb(10, 3, 61);
+        background-color: white;
+        border-radius: 5px;
+        margin-bottom: 5px;
+
+        &:first-of-type {
+            padding: 10px 5px;
+
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+        &:last-of-type {
+            padding: 5px;
+
+            span {
+                display: inline-block;
+
+                &:first-of-type {
+                    color: green;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 
 }
 
@@ -111,5 +163,11 @@ button {
 
 .reverse {
     border-radius: 0px 5px 5px 0px;
+}
+
+.arrow {
+    width: 40px;
+    text-align: center;
+
 }
 </style>

@@ -24,6 +24,10 @@ export default {
     height: 70vh;
     background-size: cover;
     padding: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .centrale {

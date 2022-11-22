@@ -32,8 +32,12 @@ export default {
 <style lang="scss" scoped>
 .sfondo {
     background-image: url(../../public/img/banner.jpg);
-    background-size: cover;
+
     height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fx-mis {
