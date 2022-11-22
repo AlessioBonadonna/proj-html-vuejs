@@ -6,15 +6,10 @@
                 <img class="logo" src="../../public/img/author-logo-round-small.png" alt="logo">
             </div>
             <nav class="list ">
-                <ul class="d-flex ">
-                    <li>home</li>
-                    <li>about me </li>
-                    <li>Testimonial</li>
-                    <li>My Blog</li>
-                    <li>Meetups</li>
-                    <li>Shop</li>
-                    <li>Contact Me </li>
-                    <li>CARRELLO</li>
+                <ul class="d-flex">
+                    <li v-for="(link, index) in links" :key="index" :class="{ 'active': link.current }">
+                        <a v-html="link.text" :href="link.url" :class="{ 'active': link.current }"></a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -23,8 +18,13 @@
 </template>
 
 <script>
+import { links } from '../data/data';
 export default {
-
+    data() {
+        return {
+            links: links
+        }
+    }
 }
 </script>
 
@@ -41,6 +41,21 @@ li {
     list-style: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+        color: orange;
+        border-bottom: 1px solid orange;
+    }
+
+}
+
+.active {
+    color: orange;
+    border-bottom: 1px solid orange;
+}
 
 
 .logo {
