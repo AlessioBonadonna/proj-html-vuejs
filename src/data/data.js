@@ -45,16 +45,20 @@ const menuFooter = [
         title: "About Me",
         links: [
             {
-                text: " Lorem ipsum dolor sit amet."
+                text: " Lorem ipsum dolor sit amet.",
+                current: false,
             },
             {
-                text: " Lorem ipsum dolor sit amet."
+                text: " Lorem ipsum dolor sit amet.",
+                current: false,
             },
             {
-                text: " Lorem ipsum dolor sit amet."
+                text: " Lorem ipsum dolor sit amet.",
+                current: false,
             },
             {
-                text: " Lorem ipsum dolor sit amet."
+                text: " Lorem ipsum dolor sit amet.",
+                current: false,
             },
         ]
     },
@@ -62,17 +66,23 @@ const menuFooter = [
         title: "Useful Links",
         links: [
             {
-                text: " → Latest Books "
+                text: " → Latest Books ",
+                current: true,
             },
             {
-                text: "→ Upcoming events "
+                text: "→ Upcoming events ",
+                current: true,
+
             },
             {
-                text: "→ Recent Articles"
+                text: "→ Recent Articles",
+                current: true,
             }, {
-                text: "→ Business Enquiries"
+                text: "→ Business Enquiries",
+                current: true,
             }, {
-                text: "→ Visit My Foundation"
+                text: "→ Visit My Foundation",
+                current: true,
             },
 
         ]
@@ -80,17 +90,22 @@ const menuFooter = [
         title: "Contact Info",
         links: [
             {
-                text: " 63 E. Studebarker street bolingbrook , IL 6044 "
+                text: " 63 E. Studebarker street bolingbrook , IL 6044 ",
+                current: false,
             },
             {
-                text: "Phone :(800)000-000 "
+                text: "Phone :(800)000-000 ",
+                current: false,
             },
             {
-                text: "Mobile : (800)000-000"
+                text: "Mobile : (800)000-000",
+                current: false,
             }, {
-                text: "Email : info@your-company.com"
+                text: "Email : info@your-company.com",
+                current: false,
             }, {
-                text: "<i class='fa-brands fa-facebook'></i>  <i class='fa-brands fa-twitter'></i> <i class='fa-brands fa-instagram'></i> <i class='fa-brands fa-linkedin-in'></i> <i class='fa-brands fa-youtube'></i>"
+                text: "<i class='fa-brands fa-facebook'></i>  <i class='fa-brands fa-twitter'></i> <i class='fa-brands fa-instagram'></i> <i class='fa-brands fa-linkedin-in'></i> <i class='fa-brands fa-youtube'></i>",
+                current: false,
             },
         ]
     }
@@ -98,6 +113,39 @@ const menuFooter = [
 
 
 ]
+const cards = [
+    {
+        img: "../../public/img/box-1.jpg",
+        text: " About Me",
+        desc: "Lorem ipsum dolor sit."
+    },
+    {
+        img: "../../public/img/box-4.jpg",
+        text: " My lastest book",
+        desc: "Lorem ipsum dolor sit."
+    },
+    {
+        img: "../../public/img/box-3.jpg",
+        text: " book signing",
+        desc: "Lorem ipsum dolor sit."
+    },
+]
+const cardt = [
+    {
+        img: "../../public/img/event-05.jpg",
+        text: " chicago book signing",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas temporibus consectetur deleniti, doloremque quos voluptate rem natus! Quas, iure reprehenderit!"
+    }, {
+        img: "../../public/img/event-04.jpg",
+        text: " meet & greet white amanda ",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas temporibus consectetur deleniti, doloremque quos voluptate rem natus! Quas, iure reprehenderit!"
+    }, {
+        img: "../../public/img/event-06.jpg",
+        text: "open book : Dialogues",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas temporibus consectetur deleniti, doloremque quos voluptate rem natus! Quas, iure reprehenderit!"
+    },
+]
 
 
-export { links, menuFooter }
+
+export { links, menuFooter, cards, cardt }

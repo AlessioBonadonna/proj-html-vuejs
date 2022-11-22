@@ -42,10 +42,23 @@ export default {
     ;
 }
 
+.active {
+    color: rgb(164, 162, 162);
+
+
+    &:hover {
+        color: orange;
+    }
+}
+
 
 
 
 li {
+    list-style: none;
+}
+
+a {
     color: rgb(164, 162, 162);
 }
 </style>

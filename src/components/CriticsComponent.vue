@@ -34,9 +34,9 @@
 
             <div class=" mt-5 yellow text-center">
                 <h3 class="text-capitalize"> a true Masterpiece , Bravo!</h3>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.
-                    Ab consectetur, aperiam
-                    saepe tempore fugit quia libero veritatis cupiditate.</p>
+                <p class="text-secondary">Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia
+                    eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.
+                    Nulla quis lorem ut libero malesuada feug at.</p>
             </div>
             <div class="autor-critics d-flex">
                 <img src="../../public/img/theguardian-xsmall.png" alt="theguardian">
@@ -66,11 +66,18 @@ export default {
 <style lang="scss" scoped>
 .testimonial {
     position: relative;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: scale(1.3);
+    }
 }
 
 .testimonial-img {
     width: 100%;
     border-radius: 0 0 60px 0;
+
+
 
 }
 
@@ -87,7 +94,7 @@ export default {
 }
 
 .yellow {
-    background-color: rgb(254, 254, 227);
+    background-color: #FEF7E8;
     padding: 50px;
 }
 </style>

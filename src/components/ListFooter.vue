@@ -5,7 +5,7 @@
             <div>
                 <ul class="p-0">
                     <li class="test-secondary" v-for="(link, index) in obj.links" :key="index">
-                        <a v-html="link.text"></a>
+                        <a v-html="link.text" :class="{ 'active': link.current }" class="text-seconday"></a>
                     </li>
                 </ul>
             </div>
@@ -32,6 +32,20 @@ export default {
 li {
 
     list-style: none;
+
+
+}
+
+a {
+    color: rgb(164, 162, 162);
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(164, 162, 162);
+        text-decoration: none;
+    }
+
 
 }
 </style>

@@ -1,9 +1,13 @@
 <template>
-    <div class=" sono-giallo d-flex">
-        <div class="container" v-for="(im, index) in contimg" :key="index">
-            <img :src="im.img" :alt="im.text" />
 
+    <div class=" sono-giallo d-flex">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="" v-for="(im, index) in contimg" :key="index">
+                <img :src="im.img" :alt="im.text" />
+
+            </div>
         </div>
+
     </div>
 </template>
 
@@ -64,5 +68,10 @@ export default {
 
 img {
     width: 200px;
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(0) invert(0);
+    }
 }
 </style>

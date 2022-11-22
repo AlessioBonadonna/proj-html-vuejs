@@ -24,16 +24,21 @@ import EventsComponent from './EventsComponent.vue';
 import SecondComponent from './SecondComponent.vue';
 import DamonComponent from './DamonComponent.vue';
 import RecentComponent from './RecentComponent.vue';
-
+import { cards } from '../data/data'
 
 export default {
+    data() {
+        return {
+            cards: cards
+        };
+    },
     components: { MainTextCenter, YellowSection, PrimoComponent, CriticsComponent, EventsComponent, SecondComponent, DamonComponent, RecentComponent }
 }
 </script>
 
 <style lang="scss" scoped>
 .yellow {
-    background-color: rgb(254, 254, 227);
+    background-color: #FEF7E8;
     padding: 50px;
 }
 </style>
