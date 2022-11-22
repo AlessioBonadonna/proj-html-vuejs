@@ -71,9 +71,7 @@ export default {
     background-image: url(../../public/img/footer-3.jpg);
     height: 40vw;
     position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+
     background-size: cover;
 
 
