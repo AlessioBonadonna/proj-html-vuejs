@@ -41,6 +41,7 @@ header {
 li {
     margin-right: 10px;
     list-style: none;
+
 }
 
 a {

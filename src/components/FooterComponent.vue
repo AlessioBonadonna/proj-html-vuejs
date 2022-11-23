@@ -42,14 +42,7 @@ export default {
     ;
 }
 
-.active {
-    color: rgb(164, 162, 162);
 
-
-    &:hover {
-        color: orange;
-    }
-}
 
 
 
@@ -60,5 +53,14 @@ li {
 
 a {
     color: rgb(164, 162, 162);
+}
+
+.active {
+    color: rgb(164, 162, 162);
+
+
+    &:hover {
+        color: orange !important;
+    }
 }
 </style>

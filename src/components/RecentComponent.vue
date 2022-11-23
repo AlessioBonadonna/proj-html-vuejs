@@ -69,4 +69,8 @@ img {
         transform: scale(1.08);
     }
 }
+
+.changecolor {
+    color: white;
+}
 </style>

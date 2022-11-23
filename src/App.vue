@@ -4,7 +4,7 @@
     <!-- <GotopComponent /> -->
     <HeaderComponent />
     <JumboComponent />
-
+    <GotopComponent />
 
     <MainComponent />
     <FooterComponent />
@@ -43,13 +43,17 @@ nav {
   height: 50px;
   padding: 10px;
   text-align: center;
-  bottom: 5px;
-  right: 10px;
+  bottom: 10px;
+  right: 15px;
   color: white;
   z-index: 5000;
   border-radius: 15px;
 
   i {
+    color: white;
+  }
+
+  .changecolor {
     color: white;
   }
 }
