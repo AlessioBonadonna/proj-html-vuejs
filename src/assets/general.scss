@@ -1,4 +1,6 @@
 @import 'bootstrap/scss/bootstrap.scss';
+
+
 $fa-font-path : "./webfonts";
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
@@ -7,12 +9,17 @@ $fa-font-path : "./webfonts";
 @import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+@import './partials/variables';
 
 body {
     font-family: 'DM Sans', sans-serif;
     // font-family: 'DM Serif Display', serif;
 }
 
-.changecolor {
+.change-color {
     color: white !important;
+}
+
+.orange {
+    color: $orange;
 }

@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/partials/variables.scss';
+@import '../assets/general.scss';
+
 header {
     position: fixed;
     color: white;
@@ -44,20 +47,22 @@ li {
 
 }
 
+@import '../assets/general.scss';
+
 a {
     color: white;
     text-decoration: none;
 
     &:hover {
-        color: orange;
-        border-bottom: 1px solid orange;
+        color: $orange;
+        border-bottom: 1px solid $orange;
     }
 
 }
 
 .active {
-    color: orange;
-    border-bottom: 1px solid orange;
+    color: $orange;
+    border-bottom: 1px solid $orange;
 }
 
 

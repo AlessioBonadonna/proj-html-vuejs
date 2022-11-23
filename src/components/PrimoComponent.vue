@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-6 text-p-c text-center  ">
                     <h2 class="text-capitalize sarif mb-5">new audiobook </h2>
-                    <p class="text-warning ">NO TIME TO READ? NO PROBLEM. LISTEN TO IT </p>
+                    <p class="orange ">NO TIME TO READ? NO PROBLEM. LISTEN TO IT </p>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Hic unde
                         consequuntur quam quo eum?
                     </p>
@@ -30,6 +30,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/general.scss';
+
 .sfondo {
     background-image: url(../../public/img/banner.jpg);
 

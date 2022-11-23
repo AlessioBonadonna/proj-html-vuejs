@@ -53,8 +53,6 @@ nav {
     color: white;
   }
 
-  .changecolor {
-    color: white;
-  }
+
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="gotop">
-        <a class=" changecolor" href="#"> <i class="fa-solid fa-arrow-up  back-to-top text-white changecolor"></i></a>
+        <a class=" changecolor" href="#"> <i class="fa-solid fa-arrow-up  back-to-top text-white change-color"></i></a>
     </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss"  scoped>
-.changecolor {
+.change-color {
     color: white;
 }
 

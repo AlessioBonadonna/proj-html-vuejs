@@ -3,7 +3,7 @@
 
         <div class="container ">
             <div class="col-5">
-                <h1 class="text-warning corsive ">Dawn Vaughn</h1>
+                <h1 class="orange corsive ">Dawn Vaughn</h1>
                 <h5 class="text-white  ">Best selling author and the most influential public
                     intellectual in the
                     western
@@ -33,7 +33,7 @@
 
                     <div>
                         <h3>Lates Book Relase</h3>
-                        <p class="text-uppercase text-warning">D Vaughn autobiogrophy </p>
+                        <p class="text-uppercase orange">D Vaughn autobiogrophy </p>
                         <small class="card-fs">Donec fringilla nunc eu turpis dignissim, at euismod <br>sapien
                             tincidunt.
                             Maecenas eleifend congue cursus.</small>
@@ -65,7 +65,10 @@ export default {
 }
 </script>
 
+
 <style lang="scss" scoped>
+@import '../assets/general.scss';
+
 .jumbo {
     background-image: url(../../public/img/footer-3.jpg);
     height: 40vw;

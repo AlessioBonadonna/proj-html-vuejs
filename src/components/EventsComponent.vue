@@ -3,7 +3,7 @@
         <div class="container">
             <div class="mb-5">
                 <h2 class="text-capitalize fs-2 sarif">upcoming events</h2>
-                <h5 class="text-warning text-uppercase fs-6"> meet the author in person </h5>
+                <h5 class="orange text-uppercase fs-6"> meet the author in person </h5>
             </div>
             <!--Card-->
             <div class="card-container d-flex justify-content-between">
@@ -40,6 +40,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/general.scss';
+
 .card {
     border: none;
 
@@ -54,7 +56,7 @@ export default {
 }
 
 .changecolor:hover {
-    color: orange;
+    color: $orange;
 
 }
 

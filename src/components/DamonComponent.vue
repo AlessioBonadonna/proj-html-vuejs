@@ -15,7 +15,7 @@
                     <div class="card-body">
                         <h4 class="text-capitalize mb-4">{{ card.text }} </h4>
                         <hr class="w-25 my-4">
-                        <p class="card-text text-warning  mb-4">{{ card.desc }}</p>
+                        <p class="card-text orange  mb-4">{{ card.desc }}</p>
                     </div>
                 </div>
             </div>
@@ -40,6 +40,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/general.scss';
+
 .sarif {
     font-family: 'DM Serif Display', serif;
 }

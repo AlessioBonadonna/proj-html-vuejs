@@ -1,8 +1,8 @@
 <template>
 
     <div class=" sono-giallo d-flex">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="" v-for="(im, index) in contimg" :key="index">
+        <div class="container d-flex justify-content-between align-items-center ">
+            <div class="p-0" v-for="(im, index) in contimg" :key="index">
                 <img :src="im.img" :alt="im.text" />
 
             </div>
@@ -54,7 +54,7 @@ export default {
 .sono-giallo div {
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .sono-giallo img {

@@ -2,7 +2,7 @@
     <div class="sfondo-due">
         <div class="centrale">
             <h1 class="text-capitalize mb-4 sarif">Subscribe to my newsletter</h1>
-            <p class="text-warning text-uppercase"> be notificate about book signing tour dates</p>
+            <p class="orange text-uppercase"> be notificate about book signing tour dates</p>
             <input type="email" class="input" placeholder="Insert your email ..*">
             <button class="btn btn-success ms-3 ">Subscribe</button>
             <p class="text-secondary mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae labore
@@ -29,6 +29,8 @@ export default {
     background-repeat: no-repeat;
 
 }
+
+@import '../assets/general.scss';
 
 .sarif {
     font-family: 'DM Serif Display', serif;
