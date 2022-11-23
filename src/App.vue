@@ -34,6 +34,8 @@ nav {
   position: relative
 }
 
+
+
 .gotop {
   position: fixed;
   background-color: rgb(65, 64, 64);

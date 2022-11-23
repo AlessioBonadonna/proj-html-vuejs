@@ -3,7 +3,7 @@
         <div class="container d-flex ">
 
             <div class="col-7">
-                <h3 class="">Recent Article </h3>
+                <h3 class="sarif">Recent Article </h3>
                 <p class="text-uppercase text-success mt-4">testimonials from around the word</p>
                 <div class="tips p-5 bg-white">
                     <div class="myfilter"><img src="../../public/img/20-Tips-scaled.jpg"></div>
@@ -23,13 +23,18 @@
                 </div>
                 <div class="p-5 bg-white ms-5 mt-5">
                     <div>
-                        <img class="over" src="../../public/img/thumb-08-2x-320x202.jpg" alt="">
-                        <h5 class="text-capitalize mt-4">What's on your Booklist ?</h5>
-                        <small class="text-capitalize text-secondary "> October 24th , 2019 | 0 comment</small>
+                        <div>
+                            <img class="over" src="../../public/img/thumb-08-2x-320x202.jpg" alt="">
+                            <h5 class="text-capitalize mt-4">What's on your Booklist ?</h5>
+                            <small class="text-capitalize text-secondary "> October 24th , 2019 | 0 comment</small>
+                        </div>
+                        <div>
+                            <img class="mt-5 over " src="../../public/img/thumb-13-2x-320x202.jpg" alt="">
+                            <h5 class="text-capitalize mt-4">Instabul travel guide </h5>
+                            <small class="text-capitalize text-secondary "> October 24th , 2019 | 0 comment</small>
+                        </div>
 
-                        <img class="mt-5 over " src="../../public/img/thumb-13-2x-320x202.jpg" alt="">
-                        <h5 class="text-capitalize mt-4">Instabul travel guide </h5>
-                        <small class="text-capitalize text-secondary "> October 24th , 2019 | 0 comment</small>
+
 
                     </div>
                 </div>
@@ -48,6 +53,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.sarif {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5em;
+}
+
 img {
     width: 100%;
 

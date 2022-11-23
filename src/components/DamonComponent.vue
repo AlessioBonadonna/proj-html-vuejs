@@ -1,7 +1,7 @@
 <template>
     <div class="container p-5 ">
         <div class="text-center">
-            <h1 class="text-capitalize">
+            <h1 class="text-capitalize sarif">
                 dig a little deeper into damon vaughun
             </h1>
             <h5 class="text-success text-capitalize">find out more the author himself</h5>
@@ -40,6 +40,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.sarif {
+    font-family: 'DM Serif Display', serif;
+}
+
 .card {
     border: none;
     transition: all 0.3s ease;

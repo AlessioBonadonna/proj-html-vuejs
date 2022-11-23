@@ -1,7 +1,7 @@
 <template>
     <div class="sfondo-due">
         <div class="centrale">
-            <h1 class="text-capitalize mb-4">Subscribe to my newsletter</h1>
+            <h1 class="text-capitalize mb-4 sarif">Subscribe to my newsletter</h1>
             <p class="text-warning text-uppercase"> be notificate about book signing tour dates</p>
             <input type="email" class="input" placeholder="Insert your email ..*">
             <button class="btn btn-success ms-3 ">Subscribe</button>
@@ -28,6 +28,10 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.sarif {
+    font-family: 'DM Serif Display', serif;
 }
 
 .centrale {

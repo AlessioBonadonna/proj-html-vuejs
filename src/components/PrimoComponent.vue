@@ -6,8 +6,8 @@
                     <img class="audible" src="../../public/img/audible-app-2x.png" alt="">
                 </div>
                 <div class="col-6 text-p-c text-center  ">
-                    <h2 class="text-capitalize">new audiobook </h2>
-                    <p class="text-warning">NO TIME TO READ? NO PROBLEM. LISTEN TO IT </p>
+                    <h2 class="text-capitalize sarif mb-5">new audiobook </h2>
+                    <p class="text-warning ">NO TIME TO READ? NO PROBLEM. LISTEN TO IT </p>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Hic unde
                         consequuntur quam quo eum?
                     </p>
@@ -53,5 +53,9 @@ export default {
     height: 100%;
     widows: 75%;
     filter: blur(-0.5px);
+}
+
+.sarif {
+    font-family: 'DM Serif Display', serif;
 }
 </style>

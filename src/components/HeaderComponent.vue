@@ -3,7 +3,7 @@
     <header class="container-fluid justify-content-between align-items-center">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo-box">
-                <img class="logo" src="../../public/img/author-logo-round-small.png" alt="logo">
+                <img class="logo h-75" src="../../public/img/author-logo-round-small.png" alt="logo">
             </div>
             <nav class="list ">
                 <ul class="d-flex">
@@ -35,6 +35,7 @@ header {
     color: white;
     z-index: 3000;
     background-color: rgba(0, 0, 0, 0.241);
+    backdrop-filter: blur(5px);
 }
 
 li {

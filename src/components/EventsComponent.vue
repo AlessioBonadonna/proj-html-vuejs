@@ -2,7 +2,7 @@
     <div class="yellow text-center">
         <div class="container">
             <div class="mb-5">
-                <h2 class="text-capitalize fs-2">upcoming events</h2>
+                <h2 class="text-capitalize fs-2 sarif">upcoming events</h2>
                 <h5 class="text-warning text-uppercase fs-6"> meet the author in person </h5>
             </div>
             <!--Card-->
@@ -43,6 +43,10 @@ export default {
 .card {
     border: none;
 
+}
+
+.sarif {
+    font-family: 'DM Serif Display', serif;
 }
 
 .changecolor {

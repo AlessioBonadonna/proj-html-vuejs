@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="list mx-4">
-            <h4 class=" text-white">{{ obj.title }}</h4>
+            <h4 class=" text-white sarif">{{ obj.title }}</h4>
             <div>
                 <ul class="p-0">
                     <li class="test-secondary" v-for="(link, index) in obj.links" :key="index">
@@ -33,6 +33,11 @@ li {
 
     list-style: none;
 
+
+}
+
+.sarif {
+    font-family: 'DM Serif Display', serif;
 
 }
 

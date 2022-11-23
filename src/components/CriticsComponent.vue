@@ -1,7 +1,7 @@
 <template>
     <div class="container p-5 d-flex">
         <div class="col-6">
-            <h3 class="text-capitalize">What the critics say</h3>
+            <h3 class="text-capitalize sarif">What the critics say</h3>
             <p class="text-uppercase text-success">testimonials from around the word</p>
             <div class="testimonial">
                 <img class="testimonial-img" src="../../public/img/testimonial2-2x.jpg" alt="">
@@ -33,7 +33,7 @@
             </div>
 
             <div class=" mt-5 yellow text-center">
-                <h3 class="text-capitalize"> a true Masterpiece , Bravo!</h3>
+                <h3 class="text-capitalize sarif "> a true Masterpiece , Bravo!</h3>
                 <p class="text-secondary">Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia
                     eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis porttitor volutpat.
                     Nulla quis lorem ut libero malesuada feug at.</p>
@@ -43,7 +43,7 @@
                 <span class="mt-2 ms-2 text-secondary"><strong>Gerald Hendly , </strong> The Guardian</span>
             </div>
             <div class=" mt-5 yellow text-center">
-                <h3 class="text-capitalize"> a unique view on the world </h3>
+                <h3 class="text-capitalize sarif "> a unique view on the world </h3>
                 <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, culpa.
                     Ab consectetur, aperiam
                     saepe tempore fugit quia libero veritatis cupiditate. Lorem ipsum dolor sit amet. </p>
@@ -69,8 +69,12 @@ export default {
     transition: all 0.3s ease;
 
     &:hover {
-        transform: scale(1.3);
+        transform: scale(1.08);
     }
+}
+
+.sarif {
+    font-family: 'DM Serif Display', serif;
 }
 
 .testimonial-img {

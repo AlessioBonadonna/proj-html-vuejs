@@ -34,10 +34,9 @@
                     <div>
                         <h3>Lates Book Relase</h3>
                         <p class="text-uppercase text-warning">D Vaughn autobiogrophy </p>
-                        <small class="card-fs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa minima
-                            porro
-                            repudiandae nisi
-                            assumenda quam tempore?</small>
+                        <small class="card-fs">Donec fringilla nunc eu turpis dignissim, at euismod <br>sapien
+                            tincidunt.
+                            Maecenas eleifend congue cursus.</small>
                     </div>
 
                 </div>
